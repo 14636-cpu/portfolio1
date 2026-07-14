@@ -1,1 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Kanit',sans-serif;
+}
 
+body{
+
+    background:#EAF6FF;
+
+    color:#2D3748;
+
+}
+
+nav{
+
+    width:100%;
+
+    padding:18px 8%;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    position:sticky;
+
+    top:0;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+    z-index:999;
+
+}
+
+.logo{
+
+    font-size:28px;
+
+    color:#4A90E2;
+
+    font-weight:bold;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+}
+
+nav ul li{
+
+    margin-left:25px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:#444;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#4A90E2;
+
+}
+
+.active{
+
+    color:white;
+
+    background:#4A90E2;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+}
+
+.hero{
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+.profile{
+
+    width:220px;
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:8px solid white;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.hero h1{
+
+    margin-top:25px;
+
+    color:#4A90E2;
+
+}
+
+.hero h2{
+
+    margin-top:10px;
+
+}
+
+.hero p{
+
+    max-width:700px;
+
+    margin:25px auto;
+
+    line-height:1.8;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:15px 40px;
+
+    background:#4A90E2;
+
+    color:white;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.feature{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+    padding:70px 8%;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.card h3{
+
+    font-size:50px;
+
+}
+
+footer{
+
+    margin-top:50px;
+
+    background:#4A90E2;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
