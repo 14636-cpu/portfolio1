@@ -380,3 +380,163 @@ nav ul{
 
 
 }
+/* ===== Profile Page ===== */
+
+
+.profile{
+
+    padding:60px 8%;
+
+    text-align:center;
+
+}
+
+
+
+.profile h1{
+
+    color:#1687d9;
+
+    font-size:40px;
+
+    margin-bottom:40px;
+
+}
+
+
+
+.profile-card{
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:50px;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+}
+
+
+
+.profile-card img{
+
+    width:250px;
+
+    height:250px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+}
+
+
+
+.info{
+
+    text-align:left;
+
+    font-size:18px;
+
+    line-height:2;
+
+}
+
+
+
+.info h2{
+
+    color:#1687d9;
+
+}
+
+
+
+/* Skills */
+
+
+.skills{
+
+    padding:50px 15%;
+
+}
+
+
+
+.skills h1{
+
+    text-align:center;
+
+    color:#1687d9;
+
+    margin-bottom:40px;
+
+}
+
+
+
+.skill{
+
+    margin-bottom:25px;
+
+}
+
+
+
+.bar{
+
+    height:15px;
+
+    background:#ddd;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+
+
+.bar span{
+
+    display:block;
+
+    height:100%;
+
+    background:#1687d9;
+
+    border-radius:20px;
+
+}
+
+
+
+
+@media(max-width:800px){
+
+
+.profile-card{
+
+    flex-direction:column;
+
+}
+
+
+
+.info{
+
+    text-align:center;
+
+}
+
+
+}
