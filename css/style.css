@@ -18,7 +18,7 @@ html{
 }
 
 body{
-    background:linear-gradient(135deg,#0B3D2E,#145A32,#1E8449);
+    background:linear-gradient(135deg,:#081b29);
     color:white;
     overflow-x:hidden;
 }
@@ -49,7 +49,7 @@ nav{
 }
 
 .logo span{
-    color:#7DCEA0;
+    color:#F0FFFF;
 }
 
 nav ul{
@@ -69,7 +69,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:#7DCEA0;
+    color:#F0FFFF;
 }
 
 /* ==========================
@@ -121,7 +121,7 @@ nav ul li a:hover{
 
 .hero h2{
 
-    color:#A9DFBF;
+    color:#F0FFFF;
 
     margin:15px 0;
 
@@ -162,7 +162,7 @@ nav ul li a:hover{
 
     transform:translateY(-5px);
 
-    background:#58D68D;
+    background:#2ECC71;
 }
 
 /* ==========================
@@ -234,7 +234,7 @@ footer{
 
     text-align:center;
 
-    background:#06281d;
+    background:#2ECC71;
 
     margin-top:80px;
 }
