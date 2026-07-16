@@ -674,3 +674,141 @@ nav ul{
 
 
 }
+/* ===== Activities Page ===== */
+
+
+.activities{
+
+    padding:60px 8%;
+
+}
+
+
+
+.activities h1{
+
+    text-align:center;
+
+    color:#1687d9;
+
+    font-size:40px;
+
+    margin-bottom:50px;
+
+}
+
+
+
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+    transition:.3s;
+
+}
+
+
+
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+
+.card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+
+
+
+.card h2{
+
+    color:#1687d9;
+
+    padding:20px 20px 10px;
+
+}
+
+
+
+.card p{
+
+    padding:0 20px;
+
+    line-height:1.7;
+
+}
+
+
+
+.card a{
+
+    display:inline-block;
+
+    margin:20px;
+
+    padding:10px 25px;
+
+    background:#1687d9;
+
+    color:white;
+
+    border-radius:20px;
+
+    text-decoration:none;
+
+}
+
+
+
+.card a:hover{
+
+    background:#0969b5;
+
+}
+
+
+
+
+@media(max-width:900px){
+
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+
+}
